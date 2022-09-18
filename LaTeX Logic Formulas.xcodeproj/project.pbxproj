@@ -14,6 +14,9 @@
 		CFD7B07328D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B07228D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift */; };
 		CFD7B07D28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B07C28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift */; };
 		CFD7B07F28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B07E28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift */; };
+		CFE5A0AE28D6C8E300767ED5 /* Formulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5A0AD28D6C8E300767ED5 /* Formulas.swift */; };
+		CFE5A0AF28D6C8E300767ED5 /* Formulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5A0AD28D6C8E300767ED5 /* Formulas.swift */; };
+		CFE5A0B028D6C8E300767ED5 /* Formulas.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE5A0AD28D6C8E300767ED5 /* Formulas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,7 @@
 		CFD7B07828D6C7C80042268E /* LaTeX Logic FormulasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LaTeX Logic FormulasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFD7B07C28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeX_Logic_FormulasUITests.swift; sourceTree = "<group>"; };
 		CFD7B07E28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeX_Logic_FormulasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFE5A0AD28D6C8E300767ED5 /* Formulas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formulas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,7 @@
 		CFD7B05F28D6C7C60042268E /* LaTeX Logic Formulas */ = {
 			isa = PBXGroup;
 			children = (
+				CFE5A0AC28D6C8C900767ED5 /* LogicHandler */,
 				CFD7B06028D6C7C60042268E /* LaTeX_Logic_FormulasApp.swift */,
 				CFD7B06228D6C7C60042268E /* ContentView.swift */,
 				CFD7B06428D6C7C70042268E /* Assets.xcassets */,
@@ -127,6 +132,14 @@
 				CFD7B07E28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift */,
 			);
 			path = "LaTeX Logic FormulasUITests";
+			sourceTree = "<group>";
+		};
+		CFE5A0AC28D6C8C900767ED5 /* LogicHandler */ = {
+			isa = PBXGroup;
+			children = (
+				CFE5A0AD28D6C8E300767ED5 /* Formulas.swift */,
+			);
+			path = LogicHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE5A0AE28D6C8E300767ED5 /* Formulas.swift in Sources */,
 				CFD7B06328D6C7C60042268E /* ContentView.swift in Sources */,
 				CFD7B06128D6C7C60042268E /* LaTeX_Logic_FormulasApp.swift in Sources */,
 			);
@@ -268,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE5A0AF28D6C8E300767ED5 /* Formulas.swift in Sources */,
 				CFD7B07328D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFE5A0B028D6C8E300767ED5 /* Formulas.swift in Sources */,
 				CFD7B07D28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift in Sources */,
 				CFD7B07F28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift in Sources */,
 			);
