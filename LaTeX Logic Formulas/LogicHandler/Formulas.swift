@@ -22,7 +22,9 @@ enum FormulaError : Error {
     case NoRightFormula
 }
 
-class Formula : CustomStringConvertible{
+class Formula : CustomStringConvertible, Hashable {
+    
+    
     
     var variable : UInt?
     var leftFormula : Formula?
@@ -76,4 +78,104 @@ class Formula : CustomStringConvertible{
         self.connector = LogicConnectors.None
         self.variable = variable
     }
+    
+    func variableList() -> Array<UInt> {
+    //TODO: -variableList
+        return []
+    }
+    
+    
+    func lastVariable() -> UInt {
+    //TODO: -lastVaribale
+        return 0
+    }
+    
+    func numConnector() -> UInt {
+    //TODO: -numConnector
+        return 0
+    }
+    
+    
+    private func evaluateAux(asignation : Array<Bool>, positions:  Array<Int>) -> Bool {
+    //TODO: -evaluateAux
+        return false
+    }
+    
+    func evaluate(asignation : Array<Bool>) -> Bool {
+    //TODO: -evaluate
+        return false
+    }
+    
+    func flatten() -> Array<Formula> {
+    //TODO: -flatten
+        return Array<Formula>()
+    }
+    
+    func flattenNoVariables() -> Array<Formula> {
+    //TODO: -flattenNoVariables
+        return Array<Formula>()
+    }
+    
+    
+    private func evaluateSubAux(asignation : Array<Bool>, positions: Array<Int>, result : [Formula:Bool]) -> [Formula:Bool]{
+    //TODO: -evaluateSubAux
+        return result
+    }
+    
+    func evaluateSub(asignation : Array<Bool>) -> [Formula:Bool] {
+    //TODO: -evaluateSub
+        return [:]
+    }
+    
+    
+    func truthRows() -> Array<Formula> {
+    //TODO: -truthRows
+        return Array<Formula>()
+    }
+    
+    
+    func texTable() -> String {
+    //TODO: -texTable
+        return ""
+    }
+    
+    private func tableHead() -> String {
+    //TODO: -tableHead
+        return ""
+    }
+    
+    private func truthRow(asignation : Array<Bool>) -> String {
+    //TODO: -truthRow
+        return ""
+    }
+    
+    func truthTable() -> String {
+    //TODO: -truthTable
+        return ""
+    }
+    
+    
+    func LaTeX() -> String {
+    //TODO: -LaTeX
+        return ""
+    }
+    
+    
+    
+    static func == (lhs: Formula, rhs: Formula) -> Bool {
+        if lhs.connector == .None && rhs.connector == .None{
+            return lhs.variable == rhs.variable
+        }
+        
+        if lhs.connector == rhs.connector {
+            return lhs.rightFormula == rhs.rightFormula && lhs.leftFormula == rhs.leftFormula
+        }
+        
+        return false
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        hasher.combine(self.description)
+    }
+    
 }
