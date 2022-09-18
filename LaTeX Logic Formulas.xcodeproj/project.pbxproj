@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD7B06128D6C7C60042268E /* LaTeX_Logic_FormulasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B06028D6C7C60042268E /* LaTeX_Logic_FormulasApp.swift */; };
+		CFD7B06328D6C7C60042268E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B06228D6C7C60042268E /* ContentView.swift */; };
+		CFD7B06528D6C7C70042268E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD7B06428D6C7C70042268E /* Assets.xcassets */; };
+		CFD7B06828D6C7C70042268E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD7B06728D6C7C70042268E /* Preview Assets.xcassets */; };
+		CFD7B07328D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B07228D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift */; };
+		CFD7B07D28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B07C28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift */; };
+		CFD7B07F28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7B07E28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFD7B06F28D6C7C70042268E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD7B05528D6C7C60042268E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD7B05C28D6C7C60042268E;
+			remoteInfo = "LaTeX Logic Formulas";
+		};
+		CFD7B07928D6C7C80042268E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFD7B05528D6C7C60042268E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFD7B05C28D6C7C60042268E;
+			remoteInfo = "LaTeX Logic Formulas";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFD7B05D28D6C7C60042268E /* LaTeX Logic Formulas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LaTeX Logic Formulas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD7B06028D6C7C60042268E /* LaTeX_Logic_FormulasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeX_Logic_FormulasApp.swift; sourceTree = "<group>"; };
+		CFD7B06228D6C7C60042268E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFD7B06428D6C7C70042268E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD7B06728D6C7C70042268E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFD7B06928D6C7C70042268E /* LaTeX_Logic_Formulas.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LaTeX_Logic_Formulas.entitlements; sourceTree = "<group>"; };
+		CFD7B06E28D6C7C70042268E /* LaTeX Logic FormulasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LaTeX Logic FormulasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD7B07228D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeX_Logic_FormulasTests.swift; sourceTree = "<group>"; };
+		CFD7B07828D6C7C80042268E /* LaTeX Logic FormulasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LaTeX Logic FormulasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD7B07C28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeX_Logic_FormulasUITests.swift; sourceTree = "<group>"; };
+		CFD7B07E28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaTeX_Logic_FormulasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD7B05A28D6C7C60042268E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD7B06B28D6C7C70042268E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD7B07528D6C7C80042268E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD7B05428D6C7C60042268E = {
+			isa = PBXGroup;
+			children = (
+				CFD7B05F28D6C7C60042268E /* LaTeX Logic Formulas */,
+				CFD7B07128D6C7C70042268E /* LaTeX Logic FormulasTests */,
+				CFD7B07B28D6C7C80042268E /* LaTeX Logic FormulasUITests */,
+				CFD7B05E28D6C7C60042268E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD7B05E28D6C7C60042268E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7B05D28D6C7C60042268E /* LaTeX Logic Formulas.app */,
+				CFD7B06E28D6C7C70042268E /* LaTeX Logic FormulasTests.xctest */,
+				CFD7B07828D6C7C80042268E /* LaTeX Logic FormulasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD7B05F28D6C7C60042268E /* LaTeX Logic Formulas */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7B06028D6C7C60042268E /* LaTeX_Logic_FormulasApp.swift */,
+				CFD7B06228D6C7C60042268E /* ContentView.swift */,
+				CFD7B06428D6C7C70042268E /* Assets.xcassets */,
+				CFD7B06928D6C7C70042268E /* LaTeX_Logic_Formulas.entitlements */,
+				CFD7B06628D6C7C70042268E /* Preview Content */,
+			);
+			path = "LaTeX Logic Formulas";
+			sourceTree = "<group>";
+		};
+		CFD7B06628D6C7C70042268E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7B06728D6C7C70042268E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFD7B07128D6C7C70042268E /* LaTeX Logic FormulasTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7B07228D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift */,
+			);
+			path = "LaTeX Logic FormulasTests";
+			sourceTree = "<group>";
+		};
+		CFD7B07B28D6C7C80042268E /* LaTeX Logic FormulasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFD7B07C28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift */,
+				CFD7B07E28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift */,
+			);
+			path = "LaTeX Logic FormulasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD7B05C28D6C7C60042268E /* LaTeX Logic Formulas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD7B08228D6C7C80042268E /* Build configuration list for PBXNativeTarget "LaTeX Logic Formulas" */;
+			buildPhases = (
+				CFD7B05928D6C7C60042268E /* Sources */,
+				CFD7B05A28D6C7C60042268E /* Frameworks */,
+				CFD7B05B28D6C7C60042268E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LaTeX Logic Formulas";
+			productName = "LaTeX Logic Formulas";
+			productReference = CFD7B05D28D6C7C60042268E /* LaTeX Logic Formulas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFD7B06D28D6C7C70042268E /* LaTeX Logic FormulasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD7B08528D6C7C80042268E /* Build configuration list for PBXNativeTarget "LaTeX Logic FormulasTests" */;
+			buildPhases = (
+				CFD7B06A28D6C7C70042268E /* Sources */,
+				CFD7B06B28D6C7C70042268E /* Frameworks */,
+				CFD7B06C28D6C7C70042268E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD7B07028D6C7C70042268E /* PBXTargetDependency */,
+			);
+			name = "LaTeX Logic FormulasTests";
+			productName = "LaTeX Logic FormulasTests";
+			productReference = CFD7B06E28D6C7C70042268E /* LaTeX Logic FormulasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFD7B07728D6C7C80042268E /* LaTeX Logic FormulasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD7B08828D6C7C80042268E /* Build configuration list for PBXNativeTarget "LaTeX Logic FormulasUITests" */;
+			buildPhases = (
+				CFD7B07428D6C7C80042268E /* Sources */,
+				CFD7B07528D6C7C80042268E /* Frameworks */,
+				CFD7B07628D6C7C80042268E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFD7B07A28D6C7C80042268E /* PBXTargetDependency */,
+			);
+			name = "LaTeX Logic FormulasUITests";
+			productName = "LaTeX Logic FormulasUITests";
+			productReference = CFD7B07828D6C7C80042268E /* LaTeX Logic FormulasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD7B05528D6C7C60042268E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CFD7B05C28D6C7C60042268E = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					CFD7B06D28D6C7C70042268E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CFD7B05C28D6C7C60042268E;
+					};
+					CFD7B07728D6C7C80042268E = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CFD7B05C28D6C7C60042268E;
+					};
+				};
+			};
+			buildConfigurationList = CFD7B05828D6C7C60042268E /* Build configuration list for PBXProject "LaTeX Logic Formulas" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD7B05428D6C7C60042268E;
+			productRefGroup = CFD7B05E28D6C7C60042268E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD7B05C28D6C7C60042268E /* LaTeX Logic Formulas */,
+				CFD7B06D28D6C7C70042268E /* LaTeX Logic FormulasTests */,
+				CFD7B07728D6C7C80042268E /* LaTeX Logic FormulasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD7B05B28D6C7C60042268E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD7B06828D6C7C70042268E /* Preview Assets.xcassets in Resources */,
+				CFD7B06528D6C7C70042268E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD7B06C28D6C7C70042268E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD7B07628D6C7C80042268E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD7B05928D6C7C60042268E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD7B06328D6C7C60042268E /* ContentView.swift in Sources */,
+				CFD7B06128D6C7C60042268E /* LaTeX_Logic_FormulasApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD7B06A28D6C7C70042268E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD7B07328D6C7C70042268E /* LaTeX_Logic_FormulasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD7B07428D6C7C80042268E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD7B07D28D6C7C80042268E /* LaTeX_Logic_FormulasUITests.swift in Sources */,
+				CFD7B07F28D6C7C80042268E /* LaTeX_Logic_FormulasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFD7B07028D6C7C70042268E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD7B05C28D6C7C60042268E /* LaTeX Logic Formulas */;
+			targetProxy = CFD7B06F28D6C7C70042268E /* PBXContainerItemProxy */;
+		};
+		CFD7B07A28D6C7C80042268E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFD7B05C28D6C7C60042268E /* LaTeX Logic Formulas */;
+			targetProxy = CFD7B07928D6C7C80042268E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFD7B08028D6C7C80042268E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD7B08128D6C7C80042268E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CFD7B08328D6C7C80042268E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LaTeX Logic Formulas/LaTeX_Logic_Formulas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaTeX Logic Formulas/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CA74QG294;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emilianoapodaca.LaTeX-Logic-Formulas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CFD7B08428D6C7C80042268E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "LaTeX Logic Formulas/LaTeX_Logic_Formulas.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LaTeX Logic Formulas/Preview Content\"";
+				DEVELOPMENT_TEAM = 3CA74QG294;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emilianoapodaca.LaTeX-Logic-Formulas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CFD7B08628D6C7C80042268E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CA74QG294;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emilianoapodaca.LaTeX-Logic-FormulasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaTeX Logic Formulas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaTeX Logic Formulas";
+			};
+			name = Debug;
+		};
+		CFD7B08728D6C7C80042268E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CA74QG294;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emilianoapodaca.LaTeX-Logic-FormulasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaTeX Logic Formulas.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LaTeX Logic Formulas";
+			};
+			name = Release;
+		};
+		CFD7B08928D6C7C80042268E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CA74QG294;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emilianoapodaca.LaTeX-Logic-FormulasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LaTeX Logic Formulas";
+			};
+			name = Debug;
+		};
+		CFD7B08A28D6C7C80042268E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3CA74QG294;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emilianoapodaca.LaTeX-Logic-FormulasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "LaTeX Logic Formulas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD7B05828D6C7C60042268E /* Build configuration list for PBXProject "LaTeX Logic Formulas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD7B08028D6C7C80042268E /* Debug */,
+				CFD7B08128D6C7C80042268E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD7B08228D6C7C80042268E /* Build configuration list for PBXNativeTarget "LaTeX Logic Formulas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD7B08328D6C7C80042268E /* Debug */,
+				CFD7B08428D6C7C80042268E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD7B08528D6C7C80042268E /* Build configuration list for PBXNativeTarget "LaTeX Logic FormulasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD7B08628D6C7C80042268E /* Debug */,
+				CFD7B08728D6C7C80042268E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD7B08828D6C7C80042268E /* Build configuration list for PBXNativeTarget "LaTeX Logic FormulasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD7B08928D6C7C80042268E /* Debug */,
+				CFD7B08A28D6C7C80042268E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD7B05528D6C7C60042268E /* Project object */;
+}
